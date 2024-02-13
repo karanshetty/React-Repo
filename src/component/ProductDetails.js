@@ -40,12 +40,12 @@ const ProductDetails = () => {
             </div>
             <hr />
             <Row>
-                <Col md={12} sm={{ order: 'last' }} md={{ order: 'first' }}>
+                <Col md={12} xs={{ order: 'last' }} sm={{ order: 'last' }} md={{ order: 'first' }}>
                     <p className='fs-5 fw-bolder'>PRODUCT INFORMATION</p>
                     <ProductInfo />
                 </Col>
                 <hr />
-                <Col md={12} sm={{ order: 'first' }} md={{ order: 'last' }}>
+                <Col md={12} xs={{ order: 'first' }} sm={{ order: 'first' }} md={{ order: 'last' }}>
                     <p className='fs-5 fw-bolder'>CUSTOMER RATING</p>
                     <Rating />
                 </Col>

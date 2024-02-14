@@ -29,7 +29,7 @@ const ProductDetails = () => {
                 </div>
                 <SizeSelector />
             </div>
-            <div className='d-md-block d-sm-none'>
+            <div className='d-none d-md-block d-sm-none'>
                 <hr />
                 <Button variant="outline-success" className='shadow mb-2 rounded' style={{ width: '100%' }}>ADD TO CART</Button>
             </div>

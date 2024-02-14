@@ -119,7 +119,7 @@ const Footer = () => {
                     <p className='fw-lighter fs-6'>© 2024 VEIRDO. All Rights Reserved by Pratyaya E-commerce Pvt. Ltd.</p>
                 </div>
             </Container>
-            <div className='d-md-none d-sm-block bg-light my-3'>
+            <div className='d-md-none d-sm-block mx-3 fixed-bottom'>
                 <Button variant="success" className='shadow mb-2 rounded' style={{ width: '100%' }}>ADD TO CART</Button>
             </div>
         </>
